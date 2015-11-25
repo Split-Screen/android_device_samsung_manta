@@ -1,6 +1,5 @@
 # Resolution values for bootanimation
-TARGET_SCREEN_HEIGHT := 1600
-TARGET_SCREEN_WIDTH := 2560
+PAC_BOOTANIMATION_NAME := 1080
 
 # Release name
 PRODUCT_RELEASE_NAME := Nexus10
@@ -16,7 +15,7 @@ $(call inherit-product, device/samsung/manta/full_manta.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := manta
-PRODUCT_NAME := cm_manta
+PRODUCT_NAME := pac_manta
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 10
 PRODUCT_MANUFACTURER := samsung
